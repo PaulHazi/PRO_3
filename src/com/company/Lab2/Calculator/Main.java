@@ -25,6 +25,11 @@ public class Main {
         System.out.println(fahrenheitToCelsius(125));
         System.out.println(inchToMeters(10.3));
 
+        double[] speed = multipleReturns(1,2,3,4);
+        System.out.println("meterSecond  "   + speed[0]);
+        System.out.println("kmHour  "   + speed[1]);
+        System.out.println("mileHour  "  + speed[2]);
+
 
     }
 
@@ -87,6 +92,14 @@ public class Main {
         return meters;
     }
 
+    public static double[] multipleReturns(double meters, double hours, double minuites, double seconds) {
+       double[] speed = new double[3];
+       speed[0]=(meters/seconds);
+       speed[1]=((speed[0])*3.6);
+       speed[2]=((speed[0])*2.236936292054);
+       return speed;
+
+    }
 
 
 }
