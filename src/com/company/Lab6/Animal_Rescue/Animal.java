@@ -1,6 +1,6 @@
 package com.company.Lab6.Animal_Rescue;
 
-public class Animal {
+public abstract class Animal {
     private String breed;
     private float hightM;
     private float weight;
@@ -82,4 +82,8 @@ public class Animal {
     public void setFavoriteActivity(String favoriteActivity) {
         this.favoriteActivity = favoriteActivity;
     }
+
+    public abstract void run();
+    public abstract void sleep ();
+    public abstract void smells();
 }

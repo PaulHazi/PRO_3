@@ -39,15 +39,34 @@ public class Main {
         marioara.setWeight(12.3f);
         System.out.println(marioara.getWeight());
  */
-        Dog Pechinez = new Pechinez();
-        Pechinez.bark();
-        Pechinez.play();
-        Pechinez.eat();
+//        Dog Pechinez = new Pechinez();
+//        Pechinez.bark();
+//        Pechinez.play();
+//        Pechinez.eat();
+//
+//        Dog Lup = new Dog();
+//        Lup.bark();
+//        Lup.play();
+//        Lup.eat();
 
-        Dog Lup = new Dog();
-        Lup.bark();
-        Lup.play();
-        Lup.eat();
+        Animal Grivei = new Dog();
+        Grivei.run();
+        Grivei.sleep();
+
+        Cat Lili = new Cat();
+        Lili.run();
+        Lili.sleep();
+        Lili.smells();
+
+        Dog Bub = new Pechinez();
+        Bub.run();
+        Bub.sleep();
+        Bub.smells();
+
+
+       Animal Mancare = new AnimalFood();
+        Mancare.smells();
+
 
     }
 

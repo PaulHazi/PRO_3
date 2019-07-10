@@ -14,6 +14,17 @@ public class Dog extends Animal {
         System.out.println("Eats pedigree");
     }
 
+    @Override
+    public void run() {
+        System.out.println("Dogs run in zig zag");
 
+    }public void sleep (){
+        System.out.println("zzzzzzzzzZZZZZZZzzzzzzzzz");
+    }
+
+    @Override
+    public void smells() {
+        System.out.println("Dogs smell good");
+    }
 }
 

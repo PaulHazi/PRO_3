@@ -1,6 +1,6 @@
 package com.company.Lab6.Animal_Rescue;
 
-public class AnimalFood {
+public class  AnimalFood extends Dog {
     private String name;
     private int priceDollar;
     private int quantityKg;
@@ -36,5 +36,10 @@ public class AnimalFood {
 
     public void setStock(String Stock) {
         this.stock = Stock;
+    }
+
+    @Override
+    public void smells() {
+        System.out.println("Animal food smells bad");
     }
 }

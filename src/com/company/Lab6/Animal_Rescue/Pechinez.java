@@ -14,6 +14,11 @@ public class Pechinez extends Dog {
         System.out.println( "PeCHINEZ only eats rice ");
 
     }
+
+    @Override
+    public void run() {
+        super.run();
+    }
 }
 
 
